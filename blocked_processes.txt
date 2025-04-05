@@ -1,0 +1,7 @@
+brave.exe
+msedge.exe
+whatsapp.exe
+bravecrashhandler.exe
+bravecrashhandler64.exe
+bravecrashhandlerarm64.exe
+braveupdate.exe
