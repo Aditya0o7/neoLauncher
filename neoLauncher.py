@@ -72,15 +72,16 @@ def main():
     t2.start()
 
     try:
-        subprocess.Popen(f'"{neo_path}"') 
+        neo_process = subprocess.Popen(f'"{neo_path}"') 
     except Exception as e:
         print("Failed to open Neo Browser:", e)
 
-    try:
-        while True:
-            time.sleep(1)
-    except KeyboardInterrupt:
-        print("\n Lockdown lifted.")
+    while True:
+        if neo_process.poll() is not None:
+            print("Neo Browser closed.")
+            break
+    time.sleep(1)
+    
 
 if __name__ == "__main__":
     main()
