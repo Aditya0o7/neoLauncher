@@ -35,4 +35,4 @@ In neo_path.txt add Neo Browser's path no need to add quotes around.
 
 By following these steps the script will runs without any issues and it will automatically close all the apps and processes and then open up the Neo Browser without needing to manually do it everytime. Once the Neo Browser is closed the script will automatically close all the apps and processes can be started again.
 
-So by setting up all paths once there is no need to uninstall/end task everytime you want to use Neo Browser.
+### So by setting up all paths once there is no need to uninstall/end task everytime you want to use Neo Browser.
