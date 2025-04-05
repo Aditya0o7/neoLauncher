@@ -64,16 +64,15 @@ def main():
         print("No Neo Browser path found, exiting.")
         exit(1)
 
-    print("🔥 Lockdown active. Blocking:", ', '.join(blocked))
+    print("Lockdown active. Blocking:", ', '.join(blocked))
 
-    # Start watcher + polling threads
     t1 = threading.Thread(target=watcher_thread, args=(blocked,), daemon=True)
     t2 = threading.Thread(target=polling_thread, args=(blocked,), daemon=True)
     t1.start()
     t2.start()
 
     try:
-        subprocess.Popen(f'"{neo_path}"')  # Run Neo Browser
+        subprocess.Popen(f'"{neo_path}"') 
     except Exception as e:
         print("Failed to open Neo Browser:", e)
 
@@ -81,7 +80,7 @@ def main():
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
-        print("\n💀 Lockdown lifted.")
+        print("\n Lockdown lifted.")
 
 if __name__ == "__main__":
     main()
