@@ -1,1 +1,1 @@
-C:\Users\bhish\AppData\Local\Programs\neo-browser\Neo Browser.exe
+C:\Users\<user>\AppData\Local\Programs\neo-browser\Neo Browser.exe
