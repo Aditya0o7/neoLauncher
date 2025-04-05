@@ -1,6 +1,6 @@
 # Neo Launcher
 
-Neo Launcher is a lightweight Windows utility that automatically closes all the uncompatible apps and keeps the backround processes of those apps blocked so that neo Broser can be runned smoothly without needing to manualling uninstalling or closing the application from task manager.
+Neo Launcher is a lightweight Windows utility that automatically closes all the uncompatible apps and keep the backround processes of those apps blocked so that neo Browser can be runned smoothly without needing to manually uninstalling or closing the application from task manager.
 
 
 -  Automatically closes apps like Brave, Edge, WhatsApp, etc.
